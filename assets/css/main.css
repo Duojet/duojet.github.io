@@ -92,7 +92,7 @@ ul li, ol li {
 }
 
 .section-title-header p {
-  text: center;
+  text-align: center;
   font-weight: 400;
   line-height: 26px;
   padding-bottom: 36px;
@@ -916,7 +916,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   text-align: center;
   transition: all 0.3s ease-in-out 0s;
   min-width: auto;
-  max-width: 300;
+  max-width: 300px;
   min-height: 300px;
   max-height: 300px;
   -moz-transition: all 0.3s ease-in-out 0s;
@@ -924,7 +924,11 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   -o-transition: all 0.3s ease-in-out 0s;
 }
 
-.services-item .icon i .logo-web{
+.container {
+  margin-top: 20px;
+}
+
+.services-item .icon i {
   font-size: 42px;
   margin-bottom: 15px;
   text-align: center;
@@ -939,6 +943,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 .services-item .services-content h3 {
   margin-top: 10px;
   margin-bottom: 10px;
+  
 }
 
 .services-item .services-content h3 a {
