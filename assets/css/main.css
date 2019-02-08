@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  background: #fff;
+  background: #dae9e4;
   font-size: 14px;
   font-weight: 400;
   font-family: "Source Sans Pro", sans-serif;
@@ -228,7 +228,7 @@ button:focus {
   background: #1260A2;
 }
 
-.social-icon li .google:hover {
+.social-icon li .github:hover {
   background: #CE332A;
 }
 
@@ -911,10 +911,14 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 .services-item {
   background: #fff;
   border-radius: 4px;
-  padding: 48px 20px;
+  padding: 48px 20px 50px 20px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   text-align: center;
   transition: all 0.3s ease-in-out 0s;
+  min-width: auto;
+  max-width: 300;
+  min-height: 300px;
+  max-height: 300px;
   -moz-transition: all 0.3s ease-in-out 0s;
   -webkit-transition: all 0.3s ease-in-out 0s;
   -o-transition: all 0.3s ease-in-out 0s;
