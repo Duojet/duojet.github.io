@@ -924,7 +924,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   -o-transition: all 0.3s ease-in-out 0s;
 }
 
-.services-item .icon i {
+.services-item .icon i .logo-web{
   font-size: 42px;
   margin-bottom: 15px;
   text-align: center;
@@ -934,6 +934,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   height: 48px;
   color: #00b4d9;
 }
+
 
 .services-item .services-content h3 {
   margin-top: 10px;
